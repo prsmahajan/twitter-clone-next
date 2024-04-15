@@ -47,9 +47,6 @@ const sidebarMenuItems: TwitterSideButton[] = [
 
 export default function Home() {
 
-  const handleLoginWithGoogle = useCallback((cred: CredentialResponse) =>{
-    
-  }, [])
   return (
     <div>
       <div className="grid grid-cols-12 h-screen w-screen px-44">
